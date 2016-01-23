@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-quiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Ocarina of Time Random Quotes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ocarina.css">
+    <script type="text/javascript" src="js/new_quotes.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="custom-align col-xs-12 col-md-12 triforce">
+        <h1 id="title-head">Ocarina of Time</h1>
+        <h2 id="sub-title">Random Quote Generator</h2>
+      </div>
+      <div class="col-xs-12 col-md-12">
+        <div id="navi">
+          <a id="tweet" href="initial"><img id="pic" src="img/Navi.png" alt="Navi Fairy" onmouseover="playClip();">Listen!Tweet this!</a>
+          <audio id="mp3">
+            <source src="js/heylisten.mp3"
+                    type="audio/mp3"/>
+          </audio>  
+        </div>
+    </div>
+    <div class="row row-margin">
+      <div class="custom-align col-xs-12 col-md-12">
+        <div class="speech">
+          <p id="quote"></p>
+        </div>
+        <button type="button" class="btn" onclick="displayRandomQuote(event)">Get Quote!</button>
+      </div>
+    </div>
+    <div class="row row-margin">
+      <div class="custom-align col-xs-12 col-md-12" >
+        <p><a id="thanks" href="http://gamefaqs.com/n64/197771-the-legend-of-zelda-ocarina-of-time/faqs/20240">Thanks to GameFAQS user davogones for the text dump!</a><p>
+      </div>
+    </div>
+  </body>
+</html>
