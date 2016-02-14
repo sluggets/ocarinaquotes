@@ -22,7 +22,7 @@ body
 #title-head
 {
   color: #e60000;
-  font-size: 7em;
+  font-size: 6em;
   text-shadow: -1px -1px 2px #b30000, 1px 1px 3px #000;
   
 }
@@ -134,5 +134,59 @@ button:active
   text-align: center;
   padding: 3em;
 
+}
+
+/* portfolio footer css */
+footer
+{
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+.list-group-item
+{
+  border: 1px solid #800026;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#about
+{
+  display: none; 
+}
+
+#projects
+{
+  display: none;
+}
+
+#timpic
+{
+  display: none;
+  border-radius: 30px;
+}
+
+a, a:visited, a:focus
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #b6bee2;
+  text-decoration: none;
+}
+
+i
+{
+  margin-left: 8px;
 }
 
