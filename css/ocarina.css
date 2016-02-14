@@ -1,20 +1,13 @@
-@font-face
-{
-  font-family: 'triforce';
-  src: url('Triforce.ttf');
-}
-
-@font-face
-{
-  font-family: 'chiaro';
-  src: url('FOT-ChiaroStd-B.otf');
-}
-
 .triforce
 {
-  font-family: 'triforce', sans-serif;
+  font-family: 'Playfair Display SC', serif;
 }
 
+#sub-title
+{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+}
 body
 {
   background-color: #D4AF37;
@@ -43,7 +36,7 @@ body
 
 #quote
 {
-  font-family: 'chiaro', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   color: white;
   font-size: 1.5em;
 
@@ -71,7 +64,7 @@ div
 }
 button
 {
-  font-family: 'chiaro';
+  font-family: 'Alegreya Sans', sans-serif;
   color: white;
   margin-top: 2em;
   background-color: #998100;
@@ -105,7 +98,7 @@ button:active
 
 #navi
 {
-  font-family: 'chiaro', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   color: white;
   text-shadow: 2px 2px 2px black;
   font-size: 14px;
@@ -129,7 +122,7 @@ button:active
 
 #thanks
 {
-  font-family: 'chiaro', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   color: white;
   text-shadow: 2px 2px 2px black;
   font-size: 14px;
